@@ -1062,7 +1062,7 @@
 					"include": "#generics"
 				},
 				{
-					"begin": "(?=\\w.*\\s+\\[\\w$]+\\s*\\()",
+					"begin": "(?=\\w.*\\s+[\\w$]+\\s*\\()",
 					"end": "(?=\\s+\\w+\\s*\\()",
 					"name": "meta.method.return-type.java",
 					"patterns": [
